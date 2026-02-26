@@ -11,7 +11,7 @@
   - Vince Rubinetti
   - Faisal Alquaddoomi
   - Gregory P. Way
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2025-06-25'
   link: https://doi.org/g9rfr3
   orcid: 0000-0002-4655-3773
@@ -81,7 +81,7 @@
   - Casey S. Greene
   - Sean Davis
   - Ran Blekhman
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-10-11'
   link: https://doi.org/gsvf5z
   orcid: 0000-0002-4655-3773
@@ -123,7 +123,7 @@
   - Blair D. Sullivan
   - Michael W. Nagle
   - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-01-07'
   link: https://doi.org/grmcb9
   orcid: 0000-0002-4655-3773
@@ -155,19 +155,20 @@
   title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
     and phylogeny'
   authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
   - Faisal S Alquaddoomi
+  - Joseph T Burke
+  - Lo Sosinski
+  - David A Mayer
   - Evan P Brenner
+  - Samuel Z Chen
+  - Jacob D Krol
   - Ethan P Wolfe
   - Vincent P Rubinetti
   - Shaddai Amolitos
   - Kellen M Reason
   - John B Johnston
   - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2022-02-22'
   link: https://doi.org/gstx7j
   orcid: 0000-0002-4655-3773
@@ -199,27 +200,11 @@
   - Casey S. Greene
   - Anthony Gitter
   publisher: PLOS Computational Biology
-  date: '2020-12-04'
+  date: '2019-06-24'
   link: https://doi.org/c7np
   orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/573782
   title: Sequential compression of gene expression across dimensionalities and methods
     reveals no single best method or dimensionality
@@ -229,36 +214,796 @@
   - Vincent Rubinetti
   - Daniel S. Himmelstein
   - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2019-03-11'
   link: https://doi.org/gfxjxf
   orcid: 0000-0002-4655-3773
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+- id: doi:10.1016/j.scib.2025.04.043
+  title: 'FOXM1 condensate: a therapeutic target for breast tumor growth and metastasis'
   authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+  - Haiyan Yan
+  - Fangwei Wang
+  - Weiguo Lu
+  publisher: Science Bulletin
+  date: '2025-09-01'
+  link: https://doi.org/hbn353
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+- id: doi:10.1083/jcb.201907092
+  title: Centromere-localized Aurora B kinase is required for the fidelity of chromosome
+    segregation
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
+  - Cai Liang
+  - Zhenlei Zhang
+  - Qinfu Chen
+  - Haiyan Yan
+  - Miao Zhang
+  - Linli Zhou
+  - Junfen Xu
+  - Weiguo Lu
+  - Fangwei Wang
+  publisher: Journal of Cell Biology
+  date: '2019-12-23'
+  link: https://doi.org/gt7sqd
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41598-022-15339-8
+  title: Dissecting the roles of Haspin and VRK1 in histone H3 phosphorylation during
+    mitosis
+  authors:
+  - Tyrell N. Cartwright
+  - Rebecca J. Harris
+  - Stephanie K. Meyer
+  - Aye M. Mon
+  - Nikolaus A. Watson
+  - Cheryl Tan
+  - Agathe Marcelot
+  - Fangwei Wang
+  - Sophie Zinn-Justin
+  - Paula Traktman
+  - Jonathan M. G. Higgins
+  publisher: Scientific Reports
+  date: '2022-07-01'
+  link: https://doi.org/hbn354
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1002/advs.202200470
+  title: 'Microbiota in Tumors: From Understanding to Application'
+  authors:
+  - Yifan Xie
+  - Feng Xie
+  - Xiaoxue Zhou
+  - Lei Zhang
+  - Bing Yang
+  - Jun Huang
+  - Fangwei Wang
+  - Haiyan Yan
+  - Linghui Zeng
+  - Long Zhang
+  - Fangfang Zhou
+  publisher: Advanced Science
+  date: '2022-05-23'
+  link: https://doi.org/gqjxhj
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.scib.2025.09.034
+  title: Chronic stress in cancer development and progression
+  authors:
+  - Xin Niu
+  - Ting Wu
+  - Linghui Zeng
+  - Fangwei Wang
+  - Weiguo Lv
+  - Long Zhang
+  - Fangfang Zhou
+  publisher: Science Bulletin
+  date: '2025-11-01'
+  link: https://doi.org/hbn355
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.15252/embj.2019101863
+  title: "Histone H2A phosphorylation recruits topoisomerase\n                   \
+    \ <scp>II</scp>\n                    \u03B1 to centromeres to safeguard genomic\
+    \ stability"
+  authors:
+  - Miao Zhang
+  - Cai Liang
+  - Qinfu Chen
+  - Haiyan Yan
+  - Junfen Xu
+  - Hongxia Zhao
+  - Xueying Yuan
+  - Jingbo Liu
+  - Shixian Lin
+  - Weiguo Lu
+  - Fangwei Wang
+  publisher: The EMBO Journal
+  date: '2019-11-26'
+  link: https://doi.org/hbn356
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.15252/embr.201744737
+  title: "A kinase\u2010dependent role for Haspin in antagonizing Wapl and protecting\
+    \ mitotic centromere cohesion"
+  authors:
+  - Cai Liang
+  - Qinfu Chen
+  - Qi Yi
+  - Miao Zhang
+  - Haiyan Yan
+  - Bo Zhang
+  - Linli Zhou
+  - Zhenlei Zhang
+  - Feifei Qi
+  - Sheng Ye
+  - Fangwei Wang
+  publisher: EMBO reports
+  date: '2017-11-14'
+  link: https://doi.org/gct3zx
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/celldisc.2016.49
+  title: Aurora-A promotes the establishment of spindle assembly checkpoint by priming
+    the Haspin-Aurora-B feedback loop in late G2 phase
+  authors:
+  - Fazhi Yu
+  - Ya Jiang
+  - Lucy Lu
+  - Mimi Cao
+  - Yulong Qiao
+  - Xing Liu
+  - Dan Liu
+  - Terry Van Dyke
+  - Fangwei Wang
+  - Xuebiao Yao
+  - Jing Guo
+  - Zhenye Yang
+  publisher: Cell Discovery
+  date: '2017-01-10'
+  link: https://doi.org/hbn357
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.cub.2017.02.019
+  title: The N-Terminal Non-Kinase-Domain-Mediated Binding of Haspin to Pds5B Protects
+    Centromeric Cohesion in Mitosis
+  authors:
+  - Linli Zhou
+  - Cai Liang
+  - Qinfu Chen
+  - Zhenlei Zhang
+  - Bo Zhang
+  - Haiyan Yan
+  - Feifei Qi
+  - Miao Zhang
+  - Qi Yi
+  - Youchen Guan
+  - Xingfeng Xiang
+  - Xiaoqing Zhang
+  - Sheng Ye
+  - Fangwei Wang
+  publisher: Current Biology
+  date: '2017-04-01'
+  link: https://doi.org/f9z5mz
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/emboj.2010.261
+  title: A phospho/methyl switch at histone H3 regulates TFIID association with mitotic
+    chromosomes
+  authors:
+  - Radhika A Varier
+  - Nikolay S Outchkourov
+  - Petra de Graaf
+  - Frederik M A van Schaik
+  - Henk Jan L Ensing
+  - Fangwei Wang
+  - Jonathan M G Higgins
+  - Geert J P L Kops
+  - HTh Marc Timmers
+  publisher: The EMBO Journal
+  date: '2010-10-15'
+  link: https://doi.org/d6g3g2
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.34133/research.1050
+  title: 'Actin Takes the Steering Wheel: A New Mitotic Safeguard in the Early Embryo'
+  authors:
+  - Yingqi Zhang
+  - Shukai Zhu
+  - Fangwei Wang
+  publisher: Research
+  date: '2025-01-01'
+  link: https://doi.org/hbn358
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.7554/eLife.64943
+  title: A subcellular map of the human kinome
+  authors:
+  - Haitao Zhang
+  - Xiaolei Cao
+  - Mei Tang
+  - Guoxuan Zhong
+  - Yuan Si
+  - Haidong Li
+  - Feifeng Zhu
+  - Qinghua Liao
+  - Liuju Li
+  - Jianhui Zhao
+  - Jia Feng
+  - Shuaifeng Li
+  - Chenliang Wang
+  - Manuel Kaulich
+  - Fangwei Wang
+  - Liangyi Chen
+  - Li Li
+  - Zongping Xia
+  - Tingbo Liang
+  - Huasong Lu
+  - Xin-Hua Feng
+  - Bin Zhao
   publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  date: '2021-05-14'
+  link: https://doi.org/gkzxmt
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3389/fcell.2021.788410
+  title: 'ISGylation in Innate Antiviral Immunity and Pathogen Defense Responses:
+    A Review'
+  authors:
+  - Mengdi Zhang
+  - Jingxian Li
+  - Haiyan Yan
+  - Jun Huang
+  - Fangwei Wang
+  - Ting Liu
+  - Linghui Zeng
+  - Fangfang Zhou
+  publisher: Frontiers in Cell and Developmental Biology
+  date: '2021-11-25'
+  link: https://doi.org/hbn359
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1002/adma.202103471
+  title: "Engineering Extracellular Vesicles Enriched with Palmitoylated ACE2 as COVID\u2010\
+    19 Therapy"
+  authors:
+  - Feng Xie
+  - Peng Su
+  - Ting Pan
+  - Xiaoxue Zhou
+  - Heyu Li
+  - Huizhe Huang
+  - Aijun Wang
+  - Fangwei Wang
+  - Jun Huang
+  - Haiyan Yan
+  - Linghui Zeng
+  - Long Zhang
+  - Fangfang Zhou
+  publisher: Advanced Materials
+  date: '2021-10-19'
+  link: https://doi.org/hbn36c
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1073/pnas.2303479120
+  title: "The RPA\u2013RNF20\u2013SNF2H cascade promotes proper chromosome segregation\
+    \ and homologous recombination repair"
+  authors:
+  - Jimin Li
+  - Jingyu Zhao
+  - Xiaoli Gan
+  - Yanyan Wang
+  - Donghao Jiang
+  - Liang Chen
+  - Fangwei Wang
+  - Jingyan Xu
+  - Huadong Pei
+  - Jun Huang
+  - Xuefeng Chen
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2023-05-08'
+  link: https://doi.org/hbn36f
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41392-023-01328-4
+  title: 'The cGAS-STING pathway: a therapeutic target in chromosomally unstable cancers'
+  authors:
+  - Haiyan Yan
+  - Weiguo Lu
+  - Fangwei Wang
+  publisher: Signal Transduction and Targeted Therapy
+  date: '2023-01-30'
+  link: https://doi.org/gskmj9
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s44318-025-00465-6
+  title: A chromatin-remodeling-independent role for ATRX in protecting centromeric
+    cohesion
+  authors:
+  - Lei Zhao
+  - Xueying Yuan
+  - Qinfu Chen
+  - Haiyan Yan
+  - Fangwei Wang
+  publisher: The EMBO Journal
+  date: '2025-05-28'
+  link: https://doi.org/hbn36g
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.34133/research.0812
+  title: "Decoding Mitotic Chromosome Assembly: Three Rules Governing Condensin\u2013\
+    Cohesin Engagement"
+  authors:
+  - Haiyan Yan
+  - Xinyu Zhou
+  - Fangwei Wang
+  publisher: Research
+  date: '2025-01-01'
+  link: https://doi.org/hbn36h
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s44318-024-00104-6
+  title: A non-canonical role of the inner kinetochore in regulating sister-chromatid
+    cohesion at centromeres
+  authors:
+  - Lu Yan
+  - Xueying Yuan
+  - Mingjie Liu
+  - Qinfu Chen
+  - Miao Zhang
+  - Junfen Xu
+  - Ling-Hui Zeng
+  - Long Zhang
+  - Jun Huang
+  - Weiguo Lu
+  - Xiaojing He
+  - Haiyan Yan
+  - Fangwei Wang
+  publisher: The EMBO Journal
+  date: '2024-05-07'
+  link: https://doi.org/hbn36j
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.celrep.2021.109740
+  title: Bub1 and CENP-U redundantly recruit Plk1 to stabilize kinetochore-microtubule
+    attachments and ensure accurate chromosome segregation
+  authors:
+  - Qinfu Chen
+  - Miao Zhang
+  - Xuan Pan
+  - Xueying Yuan
+  - Linli Zhou
+  - Lu Yan
+  - Ling-Hui Zeng
+  - Junfen Xu
+  - Bing Yang
+  - Long Zhang
+  - Jun Huang
+  - Weiguo Lu
+  - Tatsuo Fukagawa
+  - Fangwei Wang
+  - Haiyan Yan
+  publisher: Cell Reports
+  date: '2021-09-01'
+  link: https://doi.org/hbn36k
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1002/advs.202101672
+  title: "Targeted Anti\u2010Tumor Immunotherapy Using Tumor Infiltrating Cells"
+  authors:
+  - Yifan Xie
+  - Feng Xie
+  - Lei Zhang
+  - Xiaoxue Zhou
+  - Jun Huang
+  - Fangwei Wang
+  - Jin Jin
+  - Long Zhang
+  - Linghui Zeng
+  - Fangfang Zhou
+  publisher: Advanced Science
+  date: '2021-10-18'
+  link: https://doi.org/grrchp
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1074/jbc.RA118.006046
+  title: A positive feedback mechanism ensures proper assembly of the functional inner
+    centromere during mitosis in human cells
+  authors:
+  - Cai Liang
+  - Zhenlei Zhang
+  - Qinfu Chen
+  - Haiyan Yan
+  - Miao Zhang
+  - Xingfeng Xiang
+  - Qi Yi
+  - Xuan Pan
+  - Hankun Cheng
+  - Fangwei Wang
+  publisher: Journal of Biological Chemistry
+  date: '2019-02-01'
+  link: https://doi.org/hbn36m
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41467-025-63352-y
+  title: The cAMP-PKA signaling initiates mitosis by phosphorylating Bora
+  authors:
+  - Min Zhu
+  - Shinan Zhou
+  - Yingqi Zhang
+  - Qinfu Chen
+  - Xueying Yuan
+  - Long Zhang
+  - Haiyan Yan
+  - Fangwei Wang
+  publisher: Nature Communications
+  date: '2025-08-24'
+  link: https://doi.org/hbn36n
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41419-019-1843-3
+  title: NudC-like protein 2 restrains centriole amplification by stabilizing HERC2
+  authors:
+  - Min Li
+  - Xiaoyang Xu
+  - Jun Zhang
+  - Min Liu
+  - Wei Wang
+  - Ya Gao
+  - Qiang Sun
+  - Jiayu Zhang
+  - Yunkun Lu
+  - Fangwei Wang
+  - Wei Liu
+  - Tianhua Zhou
+  - Yuehong Yang
+  publisher: Cell Death &amp; Disease
+  date: '2019-08-19'
+  link: https://doi.org/hbn36p
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1073/pnas.2405177121
+  title: Molecular mechanism and functional significance of Wapl interaction with
+    the Cohesin complex
+  authors:
+  - Xueying Yuan
+  - Lu Yan
+  - Qinfu Chen
+  - Shukai Zhu
+  - Xinyu Zhou
+  - Ling-Hui Zeng
+  - Mingjie Liu
+  - Xiaojing He
+  - Jun Huang
+  - Weiguo Lu
+  - Long Zhang
+  - Haiyan Yan
+  - Fangwei Wang
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2024-08-07'
+  link: https://doi.org/hbn36q
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41598-018-32381-7
+  title: HP1 cooperates with CAF-1 to compact heterochromatic transgene repeats in
+    mammalian cells
+  authors:
+  - Haiyan Yan
+  - Xingfeng Xiang
+  - Qinfu Chen
+  - Xuan Pan
+  - Hankun Cheng
+  - Fangwei Wang
+  publisher: Scientific Reports
+  date: '2018-09-20'
+  link: https://doi.org/gfbjvv
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.tcb.2012.11.005
+  title: 'Histone modifications and mitosis: countermarks, landmarks, and bookmarks'
+  authors:
+  - Fangwei Wang
+  - Jonathan M.G. Higgins
+  publisher: Trends in Cell Biology
+  date: '2013-04-01'
+  link: https://doi.org/f4vcwt
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1002/embr.201338080
+  title: "Polo\u2010like kinase\u20101 triggers histone phosphorylation by Haspin\
+    \ in mitosis"
+  authors:
+  - Linli Zhou
+  - Xiaoying Tian
+  - Cailei Zhu
+  - Fangwei Wang
+  - Jonathan MG Higgins
+  publisher: EMBO reports
+  date: '2014-01-13'
+  link: https://doi.org/f2qg4f
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/jmcb/mjaa006
+  title: Mps1 dimerization and multisite interactions with Ndc80 complex enable responsive
+    spindle assembly checkpoint signaling
+  authors:
+  - Ping Gui
+  - Divine M Sedzro
+  - Xiao Yuan
+  - Sikai Liu
+  - Mohan Hei
+  - Wei Tian
+  - Najdat Zohbi
+  - Fangwei Wang
+  - Yihan Yao
+  - Felix O Aikhionbare
+  - Xinjiao Gao
+  - Dongmei Wang
+  - Xuebiao Yao
+  - Zhen Dou
+  publisher: Journal of Molecular Cell Biology
+  date: '2020-03-26'
+  link: https://doi.org/hbn36r
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.15252/embr.201745484
+  title: "<scp>HP</scp>\n                    1 links centromeric heterochromatin to\
+    \ centromere cohesion in mammals"
+  authors:
+  - Qi Yi
+  - Qinfu Chen
+  - Cai Liang
+  - Haiyan Yan
+  - Zhenlei Zhang
+  - Xingfeng Xiang
+  - Miao Zhang
+  - Feifei Qi
+  - Linli Zhou
+  - Fangwei Wang
+  publisher: EMBO reports
+  date: '2018-02-28'
+  link: https://doi.org/gdd6b6
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1002/advs.202104126
+  title: SUMOylation in Viral Replication and Antiviral Defense
+  authors:
+  - Yao Fan
+  - Xiang Li
+  - Lei Zhang
+  - Zhi Zong
+  - Fangwei Wang
+  - Jun Huang
+  - Linghui Zeng
+  - Chong Zhang
+  - Haiyan Yan
+  - Long Zhang
+  - Fangfang Zhou
+  publisher: Advanced Science
+  date: '2022-01-21'
+  link: https://doi.org/gspn7t
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1128/MCB.02189-05
+  title: The Assembly and Maintenance of Heterochromatin Initiated by Transgene Repeats
+    Are Independent of the RNA Interference Pathway in Mammalian Cells
+  authors:
+  - Fangwei Wang
+  - Naoki Koyama
+  - Hiroko Nishida
+  - Tokuko Haraguchi
+  - Walter Reith
+  - Toshiro Tsukamoto
+  publisher: Molecular and Cellular Biology
+  date: '2006-06-01'
+  link: https://doi.org/dsnsnf
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s00018-018-2957-y
+  title: NudCL2 is an Hsp90 cochaperone to regulate sister chromatid cohesion by stabilizing
+    cohesin subunits
+  authors:
+  - Yuehong Yang
+  - Wei Wang
+  - Min Li
+  - Ya Gao
+  - Wen Zhang
+  - Yuliang Huang
+  - Wei Zhuo
+  - Xiaoyi Yan
+  - Wei Liu
+  - Fangwei Wang
+  - Dingwei Chen
+  - Tianhua Zhou
+  publisher: Cellular and Molecular Life Sciences
+  date: '2018-10-27'
+  link: https://doi.org/hbn36s
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.celrep.2018.06.087
+  title: WAC Promotes Polo-like Kinase 1 Activation for Timely Mitotic Entry
+  authors:
+  - Feifei Qi
+  - Qinfu Chen
+  - Hongxia Chen
+  - Haiyan Yan
+  - Binbin Chen
+  - Xingfeng Xiang
+  - Cai Liang
+  - Qi Yi
+  - Miao Zhang
+  - Hankun Cheng
+  - Zhenlei Zhang
+  - Jun Huang
+  - Fangwei Wang
+  publisher: Cell Reports
+  date: '2018-07-01'
+  link: https://doi.org/gdvmpw
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1091/mbc.E11-11-0904
+  title: Molecular basis for phosphospecific recognition of histone H3 tails by Survivin
+    paralogues at inner centromeres
+  authors:
+  - Ewa Niedzialkowska
+  - Fangwei Wang
+  - Przemyslaw J. Porebski
+  - Wladek Minor
+  - Jonathan M. G. Higgins
+  - P. Todd Stukenberg
+  publisher: Molecular Biology of the Cell
+  date: '2012-04-15'
+  link: https://doi.org/f4rm6t
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s11427-025-3136-4
+  title: 'Balancing heterochromatin: ASB7-mediated proteasomal control of H3K9me3
+    homeostasis'
+  authors:
+  - Xinyu Zhou
+  - Jonathan M. G. Higgins
+  - Fangwei Wang
+  publisher: Science China Life Sciences
+  date: '2025-11-14'
+  link: https://doi.org/hbn36w
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s11427-025-3058-6
+  title: 'DNA binding and mitotic phosphorylation: native mechanisms preventing polyglutamine
+    protein aggregation'
+  authors:
+  - Haiyan Yan
+  - Xinyu Zhou
+  - Junyue Tao
+  - Fangwei Wang
+  publisher: Science China Life Sciences
+  date: '2025-09-23'
+  link: https://doi.org/hbn36x
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41556-025-01646-5
+  title: Targeting a key disulfide linkage to regulate RIG-I condensation and cytosolic
+    RNA-sensing
+  authors:
+  - Bin Wang
+  - Yongqiang Wang
+  - Ting Pan
+  - Lili Zhou
+  - Yu Ran
+  - Jing Zou
+  - Xiaohua Yan
+  - Zhenke Wen
+  - Shixian Lin
+  - Aiming Ren
+  - Fangwei Wang
+  - Zhuang Liu
+  - Ting Liu
+  - Huasong Lu
+  - Bing Yang
+  - Fangfang Zhou
+  - Long Zhang
+  publisher: Nature Cell Biology
+  date: '2025-04-14'
+  link: https://doi.org/g9fgw6
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1083/jcb.201205106
+  title: Haspin inhibitors reveal centromeric functions of Aurora B in chromosome
+    segregation
+  authors:
+  - Fangwei Wang
+  - Natalia P. Ulyanova
+  - John R. Daum
+  - Debasis Patnaik
+  - Anna V. Kateneva
+  - Gary J. Gorbsky
+  - Jonathan M.G. Higgins
+  publisher: Journal of Cell Biology
+  date: '2012-10-15'
+  link: https://doi.org/f4cgzg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1126/science.1189435
+  title: Histone H3 Thr-3 Phosphorylation by Haspin Positions Aurora B at Centromeres
+    in Mitosis
+  authors:
+  - Fangwei Wang
+  - Jun Dai
+  - John R. Daum
+  - Ewa Niedzialkowska
+  - Budhaditya Banerjee
+  - P. Todd Stukenberg
+  - Gary J. Gorbsky
+  - Jonathan M. G. Higgins
+  publisher: Science
+  date: '2010-10-08'
+  link: https://doi.org/cchr89
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1073/pnas.0901989106
+  title: Structure and functional characterization of the atypical human kinase haspin
+  authors:
+  - Jeyanthy Eswaran
+  - Debasis Patnaik
+  - Panagis Filippakopoulos
+  - Fangwei Wang
+  - Ross L. Stein
+  - James W. Murray
+  - Jonathan M. G. Higgins
+  - Stefan Knapp
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2009-12-01'
+  link: https://doi.org/bqzmh4
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1074/jbc.RA118.005978
+  title: "Aurora B kinase activity\u2013dependent and \u2013independent functions\
+    \ of the chromosomal passenger complex in regulating sister chromatid cohesion"
+  authors:
+  - Qi Yi
+  - Qinfu Chen
+  - Haiyan Yan
+  - Miao Zhang
+  - Cai Liang
+  - Xingfeng Xiang
+  - Xuan Pan
+  - Fangwei Wang
+  publisher: Journal of Biological Chemistry
+  date: '2019-02-01'
+  link: https://doi.org/hbn36z
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.cub.2011.05.016
+  title: A Positive Feedback Loop Involving Haspin and Aurora B Promotes CPC Accumulation
+    at Centromeres in Mitosis
+  authors:
+  - Fangwei Wang
+  - "Natalia\_P. Ulyanova"
+  - "Maike\_S. van\_der\_Waal"
+  - Debasis Patnaik
+  - "Susanne\_M.A. Lens"
+  - "Jonathan\_M.G. Higgins"
+  publisher: Current Biology
+  date: '2011-06-01'
+  link: https://doi.org/frb9cg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1038/s41423-022-00905-x
+  title: Role of pyroptosis in inflammation and cancer
+  authors:
+  - Xiang Wei
+  - Feng Xie
+  - Xiaoxue Zhou
+  - Yuchen Wu
+  - Haiyan Yan
+  - Ting Liu
+  - Jun Huang
+  - Fangwei Wang
+  - Fangfang Zhou
+  - Long Zhang
+  publisher: Cellular &amp; Molecular Immunology
+  date: '2022-08-15'
+  link: https://doi.org/gq88v4
   plugin: sources.py
   file: sources.yaml
