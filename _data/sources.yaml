@@ -1,23 +1,44 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
-  tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
-
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: doi:10.1016/j.scib.2025.04.043
+- id: doi:10.1083/jcb.201907092
+- id: doi:10.1038/s41598-022-15339-8
+- id: doi:10.1002/advs.202200470
+- id: doi:10.1016/j.scib.2025.09.034
+- id: doi:10.15252/embj.2019101863
+- id: doi:10.15252/embr.201744737
+- id: doi:10.1038/celldisc.2016.49
+- id: doi:10.1016/j.cub.2017.02.019
+- id: doi:10.1038/emboj.2010.261
+- id: doi:10.34133/research.1050
+- id: doi:10.7554/eLife.64943
+- id: doi:10.3389/fcell.2021.788410
+- id: doi:10.1002/adma.202103471
+- id: doi:10.1073/pnas.2303479120
+- id: doi:10.1038/s41392-023-01328-4
+- id: doi:10.1038/s44318-025-00465-6
+- id: doi:10.34133/research.0812
+- id: doi:10.1038/s44318-024-00104-6
+- id: doi:10.1016/j.celrep.2021.109740
+- id: doi:10.1002/advs.202101672
+- id: doi:10.1074/jbc.RA118.006046
+- id: doi:10.1038/s41467-025-63352-y
+- id: doi:10.1038/s41419-019-1843-3
+- id: doi:10.1073/pnas.2405177121
+- id: doi:10.1038/s41598-018-32381-7
+- id: doi:10.1016/j.tcb.2012.11.005
+- id: doi:10.1002/embr.201338080
+- id: doi:10.1093/jmcb/mjaa006
+- id: doi:10.15252/embr.201745484
+- id: doi:10.1002/advs.202104126
+- id: doi:10.1128/MCB.02189-05
+- id: doi:10.1007/s00018-018-2957-y
+- id: doi:10.1016/j.celrep.2018.06.087
+- id: doi:10.1091/mbc.E11-11-0904
+- id: doi:10.1007/s11427-025-3136-4
+- id: doi:10.1007/s11427-025-3058-6
+- id: doi:10.1038/s41556-025-01646-5
+- id: doi:10.1083/jcb.201205106
+- id: doi:10.1126/science.1189435
+- id: doi:10.1073/pnas.0901989106
+- id: doi:10.1074/jbc.RA118.005978
+- id: doi:10.1016/j.cub.2011.05.016
+- id: doi:10.1038/s41423-022-00905-x
