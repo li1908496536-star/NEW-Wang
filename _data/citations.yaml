@@ -1,5 +1,22 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.patter.2026.101514
+  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+  authors:
+  - Dave Bunten
+  - Jenna Tomkinson
+  - Erik Serrano
+  - Michael J. Lippincott
+  - Kenneth I. Brewer
+  - Vince Rubinetti
+  - Faisal Alquaddoomi
+  - Gregory P. Way
+  publisher: Patterns
+  date: '2026-05-01'
+  link: https://doi.org/hbvg3p
+  orcid: 0000-0002-4655-3773
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2025.06.19.660613
   title: Scalable data harmonization for single-cell image-based profiling with CytoTable
   authors:
@@ -304,9 +321,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.15252/embj.2019101863
-  title: "Histone H2A phosphorylation recruits topoisomerase\n                   \
-    \ <scp>II</scp>\n                    \u03B1 to centromeres to safeguard genomic\
-    \ stability"
+  title: "Histone H2A phosphorylation recruits topoisomerase II\u03B1 to centromeres\
+    \ to safeguard genomic stability"
   authors:
   - Miao Zhang
   - Cai Liang
@@ -339,7 +355,7 @@
   - Feifei Qi
   - Sheng Ye
   - Fangwei Wang
-  publisher: EMBO reports
+  publisher: The EMBO Reports
   date: '2017-11-14'
   link: https://doi.org/gct3zx
   plugin: sources.py
@@ -719,7 +735,7 @@
   - Cailei Zhu
   - Fangwei Wang
   - Jonathan MG Higgins
-  publisher: EMBO reports
+  publisher: The EMBO Reports
   date: '2014-01-13'
   link: https://doi.org/f2qg4f
   plugin: sources.py
@@ -748,8 +764,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.15252/embr.201745484
-  title: "<scp>HP</scp>\n                    1 links centromeric heterochromatin to\
-    \ centromere cohesion in mammals"
+  title: HP1 links centromeric heterochromatin to centromere cohesion in mammals
   authors:
   - Qi Yi
   - Qinfu Chen
@@ -761,7 +776,7 @@
   - Feifei Qi
   - Linli Zhou
   - Fangwei Wang
-  publisher: EMBO reports
+  publisher: The EMBO Reports
   date: '2018-02-28'
   link: https://doi.org/gdd6b6
   plugin: sources.py
